@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Herosection from "@/components/Herosection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       {/* <h1 className="text-2xl text-white text-center">Start learning next js</h1> */}
       <Herosection/>
       <FeaturedCourses/>
+      <WhyChooseUs/>
     </main>
   );
 }
