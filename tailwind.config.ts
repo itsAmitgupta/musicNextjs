@@ -34,6 +34,7 @@ const config: Config = {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
           },
+          
         }
       },
       backgroundImage: {
